@@ -1,0 +1,10 @@
+[package]
+name = "istio_types"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+protobuf = "2.27.1"
+
+[build-dependencies]
+protoc-rust = "2.25.2"
